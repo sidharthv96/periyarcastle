@@ -34,6 +34,8 @@
 		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script> <!-- Necessary-JavaScript-File-For-Bootstrap --> 
 		<!-- //js -->
+
+		<link rel-"stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 	</head>
 	<body>
 		<!-- header -->
@@ -54,7 +56,15 @@
 					<div class="clearfix"></div>
 				</div>
 				<div class="logo">
-					<h1><a href="index.html">Periyar<span>Castle</span></a></h1>
+					<h1  style="display:inline !important;"><a href="index.html">Periyar<span>Castle</span></a></h1>
+					<div class="search" style="display:inline !important">
+							<form action="#" method="post">
+								<input type="search" placeholder="Search..." name="Search" required="">
+								<input type="submit" value="">
+							</form>
+						</div>
+						<div class="clearfix"> </div>
+					
 				</div>
 				<!-- navigation -->
 				<div class="top-left">
@@ -79,22 +89,23 @@
 										<li><a href="#gallery" data-link-alt="gallery" class="scroll"><span>Gallery</span></a></li> 
 										<li><a href="#testimonials" data-link-alt="testimonials" class="scroll"><span>Testimonials</span></a></li> 
 										<li><a href="#contact" data-link-alt="Contact Us" class="scroll"><span>Contact Us</span></a></li> 
+										
 									</ul>
 								</nav>
 								
 							</div>
-						</nav>
-						<div class="search">
+						
+						<!-- <div class="search">
 							<form action="#" method="post">
 								<input type="search" placeholder="Search..." name="Search" required="">
 								<input type="submit" value="">
 							</form>
 						</div>
-						<div class="clearfix"> </div>	
+						<div class="clearfix"> </div>	 -->
+					</nav>
 					</div>
 					
 				</div>
-				<div class="clearfix"> </div>	
 				<!-- //navigation -->
 			</div>
 		</div>
@@ -573,20 +584,36 @@
 							<div class="tab-1 resp-tab-content">
 								<div class="col-md-6 portfolio-grids">
 									<div class="gallery-text-agile agile-offer1">
-										<h3>Deluxe Double Rooms (non Ac)<span>₹1300/per night</span></h3>
+										<h3>Deluxe Double Rooms (non Ac)</h3>
 										<!-- <p>Fresh local baby whiting fillets in a sesame and parsley crumb s/w chips salad lemon and tartare... This is a lunch that will leave you asking for mor...</p> -->
-										<div class="col-md-6">
-												<ul>
-														<li>Free WiFi</li>
-														<li> Free Breakfast</li>
-														<li>Laundry Service</li>
+										<br>
+										<div class="col-md-6" style="font-size:3vh">
+												<ul style="list-style-type: none">
+														<li>
+																<i class="fa fa-wifi" aria-hidden="true"></i>
+																  Free WiFi
+														</li>
+														<li> 
+																<i class="fa fa-coffee"></i>
+																Free Breakfast
+														</li>
+														<li>
+																<i class="fa fa-umbrella"></i>
+																Laundry Service
+														</li>
 														
 													</ul>
 										</div>
-										<div class="col-md-6">
-												<ul>
-														<li>TV</li>
-														<li>Room service</li>											
+										<div class="col-md-6"  style="font-size:3vh">
+												<ul style="list-style-type: none">
+														<li>
+															<i class="fa fa-tv"></i>
+															TV
+														</li>
+														<li>
+																<i class="fa fa-home"></i>															
+															Room service
+														</li>											
 													</ul>
 										</div>
 										
@@ -604,20 +631,37 @@
 								</div>
 								<div class="col-md-6 portfolio-grids">
 									<div class="gallery-text-agile agile-offer1">
-										<h3>Deluxe AC Double Room<span>₹2500/per night</span></h3>
-										<div class="col-md-6">
-												<ul>
-														<li>Air Conditioning</li>
-														<li>Free WiFi</li>
-														<li>Free Breakfast</li>
+										<h3>Deluxe AC Double Room</h3>
+										<div class="col-md-6"  style="font-size:3vh">
+												<ul style="list-style-type: none">
+														<li>
+															<i class="fa fa-snowflake-o" aria-hidden="true"></i>
+															Air Conditioning
+														</li>
+														<li>
+															<i class="fa fa-wifi" aria-hidden="true"></i>
+															Free WiFi
+														</li>
+														<li>
+															<i class="fa fa-coffee" aria-hidden="true"></i>
+															Free Breakfast
+														</li>
 														
 													</ul>
 										</div>
-										<div class="col-md-6">
-												<ul>
-														<li>Laundry Service</li>													
-														<li>TV</li>
-														<li>Room service</li>											
+										<div class="col-md-6"  style="font-size:3vh">
+												<ul style="list-style-type: none">
+														<li>
+																<i class="fa fa-umbrella"></i>
+																Laundry Service
+														</li>														<li>
+															<i class="fa fa-tv"></i>
+															TV
+														</li>
+														<li>
+															<i class="fa fa-home"></i>															
+															Room service
+														</li>													
 													</ul>
 										</div>
 										
@@ -628,16 +672,16 @@
 							<div class="tab-2 resp-tab-content">
 								<div class="col-md-6 portfolio-grids">
 									<div class="gallery-text-agile agile-offer1">
-										<h3>Crumbed Whiting<span>$250</span></h3>
+										<h3>Crumbed Whiting<span>₹250</span></h3>
 										<p>Fresh local baby whiting fillets in a sesame and parsley crumb s/w chips salad lemon and tartare... This is a lunch that will leave you asking for mor...</p>
 									</div>
 									<div class="gallery-text-agile agile-offer2">
-										<h3>Chicken Parmagiana<span>$320</span></h3>
-										<p>Chicken Surf & Turf $31 Char grilled garlic chicken breast fillet topped with a garlic seafood sauce & served with garden salad & steak fries or with ...</p>
+										<h3>Chicken Parmagiana<span>₹320</span></h3>
+										<p>Chicken Surf & Turf ₹31 Char grilled garlic chicken breast fillet topped with a garlic seafood sauce & served with garden salad & steak fries or with ...</p>
 										
 									</div>
 									<div class="gallery-text-agile agile-offer3">
-										<h3>Gluten Free Surf & Turf<span>$450</span></h3>
+										<h3>Gluten Free Surf & Turf<span>₹450</span></h3>
 										<p>Julliene veggies & rice noodles with mint coriander & cashew nuts nestled in mixed leaves and finished with sesame oil and a lime dressing.</p>
 										
 									</div>
@@ -651,16 +695,16 @@
 							<div class="tab-3 resp-tab-content">
 								<div class="col-md-6 portfolio-grids">
 									<div class="gallery-text-agile agile-offer1">
-										<h3>Organic Yoghurt Panna Cotta<span>$50</span></h3>
+										<h3>Organic Yoghurt Panna Cotta<span>₹50</span></h3>
 										<p>Blackcurrant & limoncello compote, crunchy spiced crumble & lemon zest</p>
 									</div>
 									<div class="gallery-text-agile agile-offer2">
-										<h3>Jamies Favorite Orange Cake<span>$480</span></h3>
+										<h3>Jamies Favorite Orange Cake<span>₹480</span></h3>
 										<p>Served with whipped crème fraîche, fresh orange & pomegranate</p>
 										
 									</div>
 									<div class="gallery-text-agile agile-offer3">
-										<h3>Vin Sano Tiramisu<span>$39</span></h3>
+										<h3>Vin Sano Tiramisu<span>₹39</span></h3>
 										<p>The classic Italian dessert with vin santo, chocolate shavings & orange zest</p>
 										
 									</div>
@@ -678,16 +722,16 @@
 								</div>
 								<div class="col-md-6 portfolio-grids">
 									<div class="gallery-text-agile agile-offer1">
-										<h3>Organic Yoghurt Cotta<span>$50</span></h3>
+										<h3>Organic Yoghurt Cotta<span>₹50</span></h3>
 										<p>Blackcurrant & limoncello compote, crunchy spiced crumble & lemon zest</p>
 									</div>
 									<div class="gallery-text-agile agile-offer2">
-										<h3>Jamie Blossom Poleta Cake<span>$480</span></h3>
+										<h3>Jamie Blossom Poleta Cake<span>₹480</span></h3>
 										<p>Served with whipped crème fraîche, fresh orange & pomegranate</p>
 										
 									</div>
 									<div class="gallery-text-agile agile-offer3">
-										<h3>Vin Sano Tiramisu<span>$39</span></h3>
+										<h3>Vin Sano Tiramisu<span>₹39</span></h3>
 										<p>The classic Italian dessert with vin santo, chocolate shavings & orange zest</p>
 										
 									</div>
