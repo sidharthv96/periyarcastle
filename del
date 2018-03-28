@@ -1,0 +1,6 @@
+<div class="search" style="display:inline !important">
+							<form action="#" method="post">
+								<input type="search" placeholder="Search..." name="Search" required="">
+								<input type="submit" value="">
+							</form>
+						</div>
