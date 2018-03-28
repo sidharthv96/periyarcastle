@@ -2181,7 +2181,7 @@ h3.tittle-two{
     width: 50%;
 	}
 	.agileinfo_map_color_grid_left {
-    height: 266px;
+    height: auto;
 	}
 	.ice-cream-agile-img1 {
     background: url(../images/ga11.jpg)no-repeat -79px 0px;
