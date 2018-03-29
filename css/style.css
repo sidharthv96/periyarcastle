@@ -755,17 +755,17 @@ font-weight:600;
 }
 .agileits_w3layouts_main_gridl{
 	float:left;
-	width:68%;
+	width:50%;
 }
-.agileits_w3layouts_main_gridl input[type="text"],.agileits_w3layouts_main_gridr input[type="time"]{
+.agileits_w3layouts_main_gridl input[type="text"],.agileits_w3layouts_main_gridr input[type="text"]{
 	width:90% !important;
 }
-.agileits_w3layouts_main_gridr input[type="time"] {
+.agileits_w3layouts_main_gridr input[type="text"] {
     padding: 7.5px !important;
 }
 .agileits_w3layouts_main_gridr{
 	float:right;
-	width:32%;
+	width:50%;
 }
 .w3_main_grid{
 	margin:2em 0 0;

@@ -177,6 +177,12 @@
 					</div>
 					<div class="w3_agileits_main_grid w3l_main_grid">
 						<div class="agileits_grid">
+							<h5>Phone Number </h5>
+							<input type="text" name="phone" placeholder="" required="">
+						</div>
+					</div>
+					<div class="w3_agileits_main_grid w3l_main_grid">
+						<div class="agileits_grid">
 							<h5>E-mail </h5>
 							<input type="email" name="_replyto" placeholder="ex : myname@gmail.com" required="">
 						</div>
@@ -198,15 +204,20 @@
 							<h5>Check In *</h5>
 							
 							<div class="agileits_w3layouts_main_gridl">
-								<input class="date" id="datepicker" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '" . date("d/m/Y") . "';}" required="">
+								<input class="date" id="datepicker" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required="">
 							</div>
-							<!-- <div class="agileits_w3layouts_main_gridr">
-								<input type="time" name="Time" required="">
-							</div> -->
+							<div class="agileits_w3layouts_main_gridr">
+								<h5>Check Out *</h5>
+								
+								<!-- <div class="agileits_w3layouts_main_gridl"> -->
+									<input class="date" id="datepicker1" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required=""> 
+									<!-- " . date("d/m/Y") . " -->
+								<!-- </div> -->
+							</div>
 							<div class="clearfix"> </div>
 						</div>
 					</div>
-					<div class="agileits_w3layouts_main_grid w3ls_main_grid">
+					<!-- <div class="agileits_w3layouts_main_grid w3ls_main_grid">
 						<div class="agileinfo_grid">
 							<h5>Check Out *</h5>
 							
@@ -218,7 +229,7 @@
 							</div> -->
 							<div class="clearfix"> </div>
 						</div>
-					</div>
+					</div> -->
 					<div class="agileinfo_main_grid">
 						<div class="agileits_w3layouts_grid">
 							<h5>Number of Guests *</h5>
