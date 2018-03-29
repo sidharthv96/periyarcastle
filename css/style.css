@@ -553,7 +553,7 @@ nav.navbar.navbar-default {
     width: 100%;
     min-height:800px;
     padding: 320px 0;
-    background: url(http://www.skr.de/fileadmin/_processed_/teeplantage_a3dc59b650.jpg) no-repeat 0px 0px;
+    background: url('/images/teeplantage_a3dc59b650.jpg') no-repeat 0px 0px;
     background-size: cover;
 }
 .slider-info1 {
@@ -561,7 +561,7 @@ nav.navbar.navbar-default {
     width: 100%;
     min-height:800px;
     padding: 320px 0;
-    background: url(https://i.pinimg.com/originals/59/53/34/595334799c7a489c2759b208fe0cc393.jpg) no-repeat 0px 0px;
+    background: url('/images/595334799c7a489c2759b208fe0cc393.jpg') no-repeat 0px 0px;
     background-size: cover;
 }
 .slider-info2 {
@@ -569,9 +569,8 @@ nav.navbar.navbar-default {
     width: 100%;
     min-height:800px;
     padding: 320px 0;
-    background: url(http://www.keralaleisureholidays.com/wp-content/uploads/2014/12/thekkady-boating-1.jpg) no-repeat 0px 0px;
-    background-size: cover;
-    
+    background: url('/images/thekkady-boating-1.jpg') no-repeat 0px 0px;
+    background-size: cover;    
 }
 
 
