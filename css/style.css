@@ -272,7 +272,7 @@ nav.linkEffects.linkHoverEffect_2 ul li a.active {
 	text-decoration: none !important;
 }
 .logo h1 a span {
-    color: #1bfff6;
+    color: #e25111;
 }
 .top-icons ul li {
     font-size: 1.3em;
@@ -553,7 +553,7 @@ nav.navbar.navbar-default {
     width: 100%;
     min-height:800px;
     padding: 320px 0;
-    background: url(http://www.skr.de/fileadmin/_processed_/teeplantage_a3dc59b650.jpg) no-repeat 0px 0px;
+    background: url('/images/teeplantage_a3dc59b650.jpg') no-repeat 0px 0px;
     background-size: cover;
 }
 .slider-info1 {
@@ -561,7 +561,7 @@ nav.navbar.navbar-default {
     width: 100%;
     min-height:800px;
     padding: 320px 0;
-    background: url(https://i.pinimg.com/originals/59/53/34/595334799c7a489c2759b208fe0cc393.jpg) no-repeat 0px 0px;
+    background: url('/images/595334799c7a489c2759b208fe0cc393.jpg') no-repeat 0px 0px;
     background-size: cover;
 }
 .slider-info2 {
@@ -569,9 +569,8 @@ nav.navbar.navbar-default {
     width: 100%;
     min-height:800px;
     padding: 320px 0;
-    background: url(http://www.keralaleisureholidays.com/wp-content/uploads/2014/12/thekkady-boating-1.jpg) no-repeat 0px 0px;
-    background-size: cover;
-    
+    background: url('/images/thekkady-boating-1.jpg') no-repeat 0px 0px;
+    background-size: cover;    
 }
 
 
@@ -756,17 +755,17 @@ font-weight:600;
 }
 .agileits_w3layouts_main_gridl{
 	float:left;
-	width:68%;
+	width:50%;
 }
-.agileits_w3layouts_main_gridl input[type="text"],.agileits_w3layouts_main_gridr input[type="time"]{
+.agileits_w3layouts_main_gridl input[type="text"],.agileits_w3layouts_main_gridr input[type="text"]{
 	width:90% !important;
 }
-.agileits_w3layouts_main_gridr input[type="time"] {
+/* .agileits_w3layouts_main_gridr input[type="text"] {
     padding: 7.5px !important;
-}
+} */
 .agileits_w3layouts_main_gridr{
 	float:right;
-	width:32%;
+	width:50%;
 }
 .w3_main_grid{
 	margin:2em 0 0;

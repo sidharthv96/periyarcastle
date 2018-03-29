@@ -44,7 +44,7 @@
 			<div class="agile-top-header">
 				<div class="banner-agile-top">
 					<div class="number">
-						<h3><i class="fa fa-phone" aria-hidden="true"></i> +91 8833 4383</h3>
+						<h3><i class="fa fa-phone" aria-hidden="true"></i> +91 918833 4383</h3>
 					</div>
 					<div class="top-icons">
 						<ul>
@@ -160,9 +160,9 @@
 		<div class="main" id="main">
 			<div class="w3layouts_main_grid">
 				<div class="booking-form-head-agile">
-					<h3>Hotel Booking form</h3>
+					<h3>Book Your Room</h3>
 				</div>
-				<form action="#" method="post" class="w3_form_post">
+				<form method="POST" action="https://formspree.io/periyarcastle@gmail.com" class="w3_form_post">
 					<div class="w3_agileits_main_grid w3l_main_grid">
 						<div class="agileits_grid">
 							<h5>Name * </h5>
@@ -177,6 +177,12 @@
 					</div>
 					<div class="w3_agileits_main_grid w3l_main_grid">
 						<div class="agileits_grid">
+							<h5>Phone Number </h5>
+							<input type="text" name="Phone" placeholder="Mobile Number" required="">
+						</div>
+					</div>
+					<div class="w3_agileits_main_grid w3l_main_grid">
+						<div class="agileits_grid">
 							<h5>E-mail </h5>
 							<input type="email" name="Email" placeholder="ex : myname@gmail.com" required="">
 						</div>
@@ -184,51 +190,56 @@
 					<div class="agileits_main_grid w3_agileits_main_grid">
 						<div class="wthree_grid">
 							<h5>Room Type</h5>
-							<select id="category" name="category" required="">
+							<select id="category" name="Room Type" required="">
 								<option value=" ">None</option>
-								<option value="category1">Single Room</option>
-								<option value="category2">Double Room</option>
-								<option value="category3">Suit Room</option>
+								<option value="Deluxe Doube Room (Non AC)">Deluxe Doube Room (Non AC)</option>
+								<option value="AC Deluxe Double Room">AC Deluxe Double Room</option>
+								<!-- <option value="category3">Suit Room</option> -->
 								
 							</select>
 						</div>
 					</div>
 					<div class="agileits_w3layouts_main_grid w3ls_main_grid">
 						<div class="agileinfo_grid">
-							<h5>Check In & Time *</h5>
+							<h5>Check In &amp; Check Out</h5>
 							
 							<div class="agileits_w3layouts_main_gridl">
-								<input class="date" id="datepicker" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '08/13/2016';}" required="">
+								<input class="date" id="datepicker" name="Check In" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required="">
 							</div>
 							<div class="agileits_w3layouts_main_gridr">
-								<input type="time" name="Time" required="">
+								<!-- <h5>Check Out *</h5> -->
+								
+								<!-- <div class="agileits_w3layouts_main_gridl"> -->
+									<input class="date" id="datepicker1" name="Check Out" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required=""> 
+									<!-- " . date("d/m/Y") . " -->
+								<!-- </div> -->
 							</div>
 							<div class="clearfix"> </div>
 						</div>
 					</div>
-					<div class="agileits_w3layouts_main_grid w3ls_main_grid">
+					<!-- <div class="agileits_w3layouts_main_grid w3ls_main_grid">
 						<div class="agileinfo_grid">
-							<h5>Check Out & Time *</h5>
+							<h5>Check Out *</h5>
 							
 							<div class="agileits_w3layouts_main_gridl">
-								<input class="date" id="datepicker1" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '08/13/2016';}" required="">
+								<input class="date" id="datepicker1" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '" . date("d/m/Y") . "';}" required="">
 							</div>
 							<div class="agileits_w3layouts_main_gridr">
 								<input type="time" name="Time" required="">
-							</div>
+							</div> 
 							<div class="clearfix"> </div>
 						</div>
-					</div>
+					</div> -->
 					<div class="agileinfo_main_grid">
 						<div class="agileits_w3layouts_grid">
-							<h5>Number of Guests *</h5>
-							<select id="category1" name="category1" required="">
-								<option value=" ">01</option>
-								<option value="category2">02</option>
-								<option value="category3">03</option>
-								<option value="category4">04</option>
-								<option value="category2">05</option>
-								<option value="category3">06</option>
+							<h5>Number of Guests</h5>
+							<select id="category1" name="Guests" required="">
+								<option value="1">01</option>
+								<option value="2">02</option>
+								<option value="3">03</option>
+								<option value="4">04</option>
+								<option value="5">05</option>
+								<option value="6">06</option>
 							</select>
 						</div>
 					</div>
@@ -263,7 +274,7 @@
 					<div class="col-md-4 w3-about-bg-text-grid">
 						<div class="w3-about-bg-head">
 							<h3>Restaurant</h3>
-							<p>National & international cuisine</p>
+							<p>National &amp; international cuisine</p>
 							<!-- <h5><a href="#">viewmore</a></h5> -->
 						</div>
 					</div>
@@ -402,7 +413,7 @@
 							
 							
 							
-							<div class="col-sm-2 col-xs-6 wpb_column column_container ">
+							<!-- <div class="col-sm-2 col-xs-6 wpb_column column_container ">
 								<div class="wpb_wrapper">
 									
 									<div class="usp">
@@ -415,7 +426,7 @@
 									</div>
 									
 								</div> 
-							</div> 
+							</div>  -->
 							
 							<div class="col-sm-2 col-xs-6 wpb_column column_container ">
 								<div class="wpb_wrapper">
