@@ -160,7 +160,7 @@
 		<div class="main" id="main">
 			<div class="w3layouts_main_grid">
 				<div class="booking-form-head-agile">
-					<h3>Hotel Booking form</h3>
+					<h3>Book Your Room</h3>
 				</div>
 				<form method="POST" action="https://formspree.io/periyarcastle@gmail.com" class="w3_form_post">
 					<div class="w3_agileits_main_grid w3l_main_grid">
@@ -178,22 +178,22 @@
 					<div class="w3_agileits_main_grid w3l_main_grid">
 						<div class="agileits_grid">
 							<h5>Phone Number </h5>
-							<input type="text" name="phone" placeholder="" required="">
+							<input type="text" name="Phone" placeholder="Mobile Number" required="">
 						</div>
 					</div>
 					<div class="w3_agileits_main_grid w3l_main_grid">
 						<div class="agileits_grid">
 							<h5>E-mail </h5>
-							<input type="email" name="_replyto" placeholder="ex : myname@gmail.com" required="">
+							<input type="email" name="Email" placeholder="ex : myname@gmail.com" required="">
 						</div>
 					</div>
 					<div class="agileits_main_grid w3_agileits_main_grid">
 						<div class="wthree_grid">
 							<h5>Room Type</h5>
-							<select id="category" name="category" required="">
+							<select id="category" name="Room Type" required="">
 								<option value=" ">None</option>
-								<option value="category1">Deluxe Doube Room (Non AC)</option>
-								<option value="category2">AC Deluxe Double Room</option>
+								<option value="Deluxe Doube Room (Non AC)">Deluxe Doube Room (Non AC)</option>
+								<option value="AC Deluxe Double Room">AC Deluxe Double Room</option>
 								<!-- <option value="category3">Suit Room</option> -->
 								
 							</select>
@@ -201,16 +201,16 @@
 					</div>
 					<div class="agileits_w3layouts_main_grid w3ls_main_grid">
 						<div class="agileinfo_grid">
-							<h5>Check In *</h5>
+							<h5>Check In &amp; Check Out</h5>
 							
 							<div class="agileits_w3layouts_main_gridl">
-								<input class="date" id="datepicker" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required="">
+								<input class="date" id="datepicker" name="Check In" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required="">
 							</div>
 							<div class="agileits_w3layouts_main_gridr">
-								<h5>Check Out *</h5>
+								<!-- <h5>Check Out *</h5> -->
 								
 								<!-- <div class="agileits_w3layouts_main_gridl"> -->
-									<input class="date" id="datepicker1" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required=""> 
+									<input class="date" id="datepicker1" name="Check Out" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required=""> 
 									<!-- " . date("d/m/Y") . " -->
 								<!-- </div> -->
 							</div>
@@ -224,15 +224,15 @@
 							<div class="agileits_w3layouts_main_gridl">
 								<input class="date" id="datepicker1" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '" . date("d/m/Y") . "';}" required="">
 							</div>
-							<!-- <div class="agileits_w3layouts_main_gridr">
+							<div class="agileits_w3layouts_main_gridr">
 								<input type="time" name="Time" required="">
-							</div> -->
+							</div> 
 							<div class="clearfix"> </div>
 						</div>
 					</div> -->
 					<div class="agileinfo_main_grid">
 						<div class="agileits_w3layouts_grid">
-							<h5>Number of Guests *</h5>
+							<h5>Number of Guests</h5>
 							<select id="category1" name="Guests" required="">
 								<option value="1">01</option>
 								<option value="2">02</option>
