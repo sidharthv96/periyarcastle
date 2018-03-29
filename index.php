@@ -198,7 +198,7 @@
 							<h5>Check In *</h5>
 							
 							<div class="agileits_w3layouts_main_gridl">
-								<input class="date" id="datepicker" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '08/13/2016';}" required="">
+								<input class="date" id="datepicker" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '" . date("d/m/Y") . "';}" required="">
 							</div>
 							<!-- <div class="agileits_w3layouts_main_gridr">
 								<input type="time" name="Time" required="">
@@ -211,7 +211,7 @@
 							<h5>Check Out *</h5>
 							
 							<div class="agileits_w3layouts_main_gridl">
-								<input class="date" id="datepicker1" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '08/13/2016';}" required="">
+								<input class="date" id="datepicker1" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '" . date("d/m/Y") . "';}" required="">
 							</div>
 							<!-- <div class="agileits_w3layouts_main_gridr">
 								<input type="time" name="Time" required="">
@@ -222,13 +222,13 @@
 					<div class="agileinfo_main_grid">
 						<div class="agileits_w3layouts_grid">
 							<h5>Number of Guests *</h5>
-							<select id="category1" name="category1" required="">
-								<option value=" ">01</option>
-								<option value="category2">02</option>
-								<option value="category3">03</option>
-								<option value="category4">04</option>
-								<option value="category2">05</option>
-								<option value="category3">06</option>
+							<select id="category1" name="Guests" required="">
+								<option value="1">01</option>
+								<option value="2">02</option>
+								<option value="3">03</option>
+								<option value="4">04</option>
+								<option value="5">05</option>
+								<option value="6">06</option>
 							</select>
 						</div>
 					</div>
